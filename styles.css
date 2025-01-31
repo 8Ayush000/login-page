@@ -1,0 +1,115 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+input:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+button {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #1b5e20;
+}
+.signup-prompt {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.signup-prompt a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+.social-login {
+    text-align: center;
+    margin-top: 15px;
+}
+.social-btn {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: calc(100% - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social-btn:hover {
+    background-color: #1b5e20;
+}
+.gmail {
+    background-color: #d32f2f;
+}
+.gmail:hover {
+    background-color: #b71c1c;
+}
+.github {
+    background-color: #424242;
+}
+.github:hover {
+    background-color: #212121;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
